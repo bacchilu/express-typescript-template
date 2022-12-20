@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf dict; tsc",
     "start": "node dist/index.js",
-    "serve": "concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
+    "serve": "tsc; concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
     "update": "ncu -u"
   },
   "author": "Luca Bacchi",
