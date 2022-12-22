@@ -8,7 +8,7 @@
     "update": "ncu -u",
     "serve": "parcel -p 8000",
     "watch": "parcel watch",
-    "build": "rm -rf dist && parcel build --no-source-maps"
+    "build": "rm -rf dist && parcel build --no-source-maps --public-url /test-app"
   },
   "repository": {
     "type": "git",
