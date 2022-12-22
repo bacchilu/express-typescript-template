@@ -1,6 +1,6 @@
 {
   "name": "test-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Test App",
   "source": "index.html",
   "browserslist": "defaults",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
-    "npm-check-updates": "^16.6.0",
+    "npm-check-updates": "^16.6.2",
     "parcel": "^2.8.2",
     "process": "^0.11.10"
   },
