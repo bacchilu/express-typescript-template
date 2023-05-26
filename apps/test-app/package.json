@@ -1,6 +1,6 @@
 {
   "name": "test-app",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React Test App",
   "source": "index.html",
   "browserslist": "defaults",
@@ -9,21 +9,11 @@
     "serve": "vite --port 8000",
     "build": "rm -rf dist && vite build --base /test-app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bacchilu/express-typescript-template.git"
-  },
-  "author": "Luca Bacchi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bacchilu/express-typescript-template/issues"
-  },
-  "homepage": "https://github.com/bacchilu/express-typescript-template#readme",
   "devDependencies": {
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "npm-check-updates": "^16.10.12",
-    "vite": "^4.3.8"
+    "vite": "^4.3.9"
   },
   "dependencies": {
     "react": "^18.2.0",

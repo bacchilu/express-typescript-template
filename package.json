@@ -9,6 +9,10 @@
     "serve": "tsc; concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
     "update": "ncu -u"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacchilu/express-typescript-template"
+  },
   "author": "Luca Bacchi",
   "license": "ISC",
   "dependencies": {

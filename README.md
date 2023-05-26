@@ -1,5 +1,7 @@
 # Express TypeScript Template
 
+    npm install # This will install all the dependencies, traversing all workspaces
+
 Empty Express project in TypeScript
 
     npm run serve
@@ -9,7 +11,7 @@ Empty Express project in TypeScript
 
 How to execute the _test-app_ app:
 
-    npm install
+    npm run update -w test-app # eventually `npm version patch -w test-app; npm install`
     npm run serve -w test-app
     npm run build -w test-app
 
