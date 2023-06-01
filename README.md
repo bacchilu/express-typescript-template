@@ -15,6 +15,18 @@ How to execute the _test-app_ app:
     npm run serve -w test-app
     npm run build -w test-app
 
+How to execute the _server_ app (dev):
+
+    npm run build -w test-app
+    npm run serve -w server
+
+How to execute the _server_ app (prod):
+
+    npm run build -w test-app
+    npm run build -w server
+    npm run start -w server
+
+
 Note:
 
     https://github.com/alexeagleson/monorepo-example
