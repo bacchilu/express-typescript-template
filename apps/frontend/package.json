@@ -1,13 +1,13 @@
 {
-  "name": "test-app",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "React Test App",
+  "description": "React Frontend App",
   "source": "index.html",
   "browserslist": "defaults",
   "scripts": {
     "update": "ncu -u",
     "serve": "vite --port 8000",
-    "build": "rm -rf dist && vite build --base /test-app"
+    "build": "rm -rf dist && vite build --base /frontend"
   },
   "devDependencies": {
     "@types/react": "^18.2.22",

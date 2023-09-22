@@ -2,27 +2,20 @@
 
     npm install # This will install all the dependencies, traversing all workspaces
 
-Empty Express project in TypeScript
-
-    npm run serve
-    npm run build
-    npm run start
-
-
-How to execute the _test-app_ app:
-
-    npm run update -w test-app # eventually `npm version patch -w test-app; npm install`
-    npm run serve -w test-app
-    npm run build -w test-app
-
 How to execute the _server_ app (dev):
 
-    npm run build -w test-app
+    npm run build -w frontend
     npm run serve -w server
+
+How to execute the _frontend_ app:
+
+    npm run update -w frontend # eventually `npm version patch -w frontend; npm install`
+    npm run serve -w frontend
+    npm run build -w frontend
 
 How to execute the _server_ app (prod):
 
-    npm run build -w test-app
+    npm run build -w frontend
     npm run build -w server
     npm run start -w server
 

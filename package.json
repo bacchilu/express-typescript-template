@@ -10,6 +10,6 @@
   "license": "ISC",
   "workspaces": [
     "server",
-    "apps/test-app"
+    "apps/frontend"
   ]
 }

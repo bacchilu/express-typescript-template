@@ -4,9 +4,9 @@ import path from "path";
 const app = express();
 const port = 3000;
 
-const PATH = path.join(__dirname, "../../apps", "test-app", "dist");
-app.use("/test-app", express.static(PATH));
-app.get("/test-app/*", function (req, res) {
+const PATH = path.join(__dirname, "../../apps", "frontend", "dist");
+app.use("/frontend", express.static(PATH));
+app.get("/frontend/*", function (req, res) {
   res.sendFile(path.join(PATH, "index.html"));
 });
 
